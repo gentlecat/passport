@@ -3,9 +3,6 @@ language: go
 go:
  - 1.7.3
  - tip
- 
-install:
- - go get go.roman.zone/passport
 
 script:
   - go test -race ./... -bench .
